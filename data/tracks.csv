@@ -1,0 +1,25 @@
+track_id,artist_id,artist_name,track_name,genre,release_stage,artist_followers
+T001,A001,Nova Vale,Afterglow,Pop,Recent,258478
+T002,A001,Nova Vale,Paper Planes,Pop,New Release,601778
+T003,A001,Nova Vale,Night Drive,Pop,New Release,493106
+T004,A002,The Static Coast,Gravity,Indie Rock,New Release,239947
+T005,A002,The Static Coast,Glass Houses,Indie Rock,Recent,1168716
+T006,A002,The Static Coast,Slow Motion,Indie Rock,New Release,1263352
+T007,A003,Lumen Park,Satellite,Electronic,Catalog,91653
+T008,A003,Lumen Park,Wildflower,Electronic,New Release,221493
+T009,A003,Lumen Park,Neon Signs,Electronic,New Release,512925
+T010,A004,Mira Sol,Parallel Lines,R&B,Recent,1287524
+T011,A004,Mira Sol,Blue Hour,R&B,New Release,1202016
+T012,A004,Mira Sol,Second Chances,R&B,New Release,1387906
+T013,A005,Atlas Bloom,Electric Heart,Alt Pop,Recent,1167825
+T014,A005,Atlas Bloom,City Lights,Alt Pop,Catalog,487297
+T015,A005,Atlas Bloom,Open Water,Alt Pop,Catalog,1260779
+T016,A006,Northline,Echoes,Hip-Hop,Catalog,38628
+T017,A006,Northline,Golden,Hip-Hop,New Release,1489104
+T018,A006,Northline,Drift,Hip-Hop,Catalog,738557
+T019,A007,Sienna Grey,Signals,Singer-Songwriter,Catalog,351064
+T020,A007,Sienna Grey,Stay Awhile,Singer-Songwriter,New Release,730889
+T021,A007,Sienna Grey,Motion Blur,Singer-Songwriter,New Release,219502
+T022,A008,Velvet Circuit,Half Awake,Dance,Catalog,227828
+T023,A008,Velvet Circuit,Fever Dream,Dance,Catalog,746327
+T024,A008,Velvet Circuit,New Again,Dance,Recent,579740

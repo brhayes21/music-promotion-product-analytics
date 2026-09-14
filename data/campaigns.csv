@@ -1,0 +1,19 @@
+campaign_id,campaign_type,track_id,start_date,end_date,objective,campaign_tier,target_market
+C001,Discovery Mode,T002,2026-06-07,2026-06-26,Reach new listeners,Priority,US + Canada
+C002,Showcase,T015,2026-06-24,2026-07-09,Promote priority release,Priority,US + Canada
+C003,Discovery Mode,T018,2026-07-13,2026-07-30,Reach new listeners,Standard,North America
+C004,Showcase,T004,2026-06-11,2026-07-02,Promote priority release,Standard,US
+C005,Marquee,T013,2026-06-25,2026-07-12,Drive release engagement,Standard,North America
+C006,Marquee,T003,2026-06-04,2026-06-20,Drive release engagement,Standard,US + Canada
+C007,Marquee,T022,2026-06-18,2026-07-02,Drive release engagement,Standard,North America
+C008,Showcase,T010,2026-06-21,2026-07-07,Promote priority release,Priority,US + Canada
+C009,Showcase,T012,2026-06-30,2026-07-15,Promote priority release,Priority,US
+C010,Discovery Mode,T017,2026-07-06,2026-07-27,Reach new listeners,Priority,North America
+C011,Showcase,T021,2026-06-28,2026-07-25,Promote priority release,Priority,US + Canada
+C012,Discovery Mode,T016,2026-06-09,2026-06-30,Reach new listeners,Priority,US
+C013,Discovery Mode,T024,2026-06-08,2026-06-23,Reach new listeners,Standard,North America
+C014,Marquee,T001,2026-07-09,2026-07-23,Drive release engagement,Priority,US + Canada
+C015,Showcase,T014,2026-06-30,2026-07-21,Promote priority release,Priority,North America
+C016,Discovery Mode,T005,2026-07-14,2026-08-07,Reach new listeners,Standard,North America
+C017,Showcase,T020,2026-06-18,2026-07-13,Promote priority release,Priority,US
+C018,Marquee,T007,2026-06-28,2026-07-13,Drive release engagement,Priority,US
