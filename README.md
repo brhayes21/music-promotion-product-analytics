@@ -4,7 +4,7 @@ Independent product analytics portfolio project using **SQL, Google BigQuery, an
 
 > **Important:** This project uses fully synthetic data created for portfolio demonstration. It is not Spotify internal data, is not affiliated with Spotify, and should not be interpreted as an estimate of real Spotify product performance.
 
-## Business question
+## Business Question
 
 **Which music-promotion campaigns are most effective at converting listener exposure into meaningful engagement?**
 
@@ -22,7 +22,7 @@ The synthetic dataset contains **24 tracks**, **18 promotion campaigns**, and **
 
 See [`data/DATA_DICTIONARY.md`](data/DATA_DICTIONARY.md) for field definitions.
 
-## Core metrics
+## Core Metrics
 
 | Metric | Definition |
 |---|---|
@@ -34,7 +34,7 @@ See [`data/DATA_DICTIONARY.md`](data/DATA_DICTIONARY.md) for field definitions.
 
 Rates are calculated from aggregated numerators and denominators, rather than by averaging row-level percentages.
 
-## Analysis workflow
+## Analysis Workflow
 
 1. Loaded three CSV tables into BigQuery.
 2. Joined performance, campaign, and track metadata.
@@ -43,16 +43,16 @@ Rates are calculated from aggregated numerators and denominators, rather than by
 5. Used CTEs and benchmark comparisons to flag high-reach / low-conversion campaigns.
 6. Used `PERCENT_RANK()` window functions to construct an illustrative overall engagement score.
 7. Created a joined BigQuery view as the Tableau source.
-8. Built a four-panel dashboard communicating reach, conversion, audience, and genre patterns.
+8. Built a four-panel dashboard showcasing reach, conversion, audience, and genre patterns.
 
-## Key findings
+## Key Findings
 
 - **Reach and efficiency can diverge.** Several high-reach campaigns had below-average stream conversion.
-- **Downstream engagement adds important context.** The campaign with the strongest initial conversion was not necessarily the campaign with the strongest repeat behavior.
+- **Downstream engagement adds important context.** The campaign with the strongest initial conversion was not necessarily the campaign with the strongest repeat behavior by listeners.
 - **Listener relationship mattered in the synthetic sample.** Existing fans showed stronger conversion and downstream engagement, while new listeners had higher skip rates.
 - **Performance varied by genre.** Because genre sample sizes differ, these results are descriptive rather than causal.
 
-## Tableau dashboard
+## Tableau Dashboard
 
 The dashboard contains four views:
 
@@ -61,11 +61,9 @@ The dashboard contains four views:
 - **Engagement Varies by Listener Type**
 - **Campaign Types Differ in Engagement Quality**
 
-Add an exported dashboard image to:
+![Music Promotion Performance Dashboard](tableau/music_promotion_dashboard.png)
 
-`tableau/music_promotion_dashboard.png`
-
-## SQL techniques demonstrated
+## SQL Techniques Demonstrated
 
 - Multi-table `JOIN`
 - `GROUP BY`
@@ -85,8 +83,7 @@ Add an exported dashboard image to:
 - Genre sample sizes differ.
 - Observational patterns should not be interpreted causally.
 - The composite engagement score uses equal weights and is not validated against a real business objective.
-- A production analysis would incorporate controlled experiments, uncertainty estimates, cost/revenue outcomes, and longer-term retention.
 
-## Product recommendations
+## Product Recommendations
 
 See [`insights/product_recommendations.md`](insights/product_recommendations.md).
