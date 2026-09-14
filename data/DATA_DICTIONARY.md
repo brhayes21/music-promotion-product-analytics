@@ -1,6 +1,6 @@
 # Music Promotion Product Analytics — Data Dictionary
 
-This is a **synthetic dataset** created for an independent portfolio project. It is not Spotify internal data.
+This is a **synthetic dataset** generated with AI assistance, created for an independent portfolio project. It is not Spotify internal data.
 
 ## tracks.csv
 - track_id: synthetic track identifier
