@@ -20,6 +20,8 @@ Rather than treating reach as the only success metric, the analysis evaluates bo
 
 The synthetic dataset contains **24 tracks**, **18 promotion campaigns**, and **4,212 campaign-day-segment-country performance rows**.
 
+**Data provenance:** The dataset was generated specifically for this independent portfolio project using a scripted synthetic-data simulation with AI assistance. It does not contain Spotify user data, proprietary Spotify data, or estimates of actual Spotify product performance.
+
 See [`data/DATA_DICTIONARY.md`](data/DATA_DICTIONARY.md) for field definitions.
 
 ## Core Metrics
